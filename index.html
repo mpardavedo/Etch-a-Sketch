@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Etch-A-Sketch</h1>
+    
+    <div class="selector">
+       <button id="changeSizeButton">Change Grid Size</button>
+    </div>
+
+    <div class="container"></div>
+    
+    <div id="buttons">
+        <form id="button-container">
+            <input type="radio" id="black-pen" name="pen" value="black-pen"><label for="black-pen">Black</label>
+            <input type="radio" id="red-pen" name="pen" value="red-pen"><label for="red-pen">Red</label>
+            <input type="radio" id="blue-pen" name="pen" value="blue-pen"><label for="blue-pen">Blue</label>
+            <input type="radio" id="green-pen" name="pen" value="green-pen"><label for="green-pen">Green</label>
+            <input type="radio" id="rainbow" name="pen" value="rainbow"><label for="rainbow">Random</label>
+            <button class="clear">Clear</button>
+            
+        </form>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
